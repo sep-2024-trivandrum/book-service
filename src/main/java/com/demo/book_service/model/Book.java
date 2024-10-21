@@ -1,5 +1,7 @@
 package com.demo.book_service.model;
 
+import java.time.LocalDate;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -19,4 +21,7 @@ public class Book {
 	private int bookId;
 	private String bookTitle;
 	private String bookPrice;
+	private LocalDate bookPublished;
+	private String bookImageUrl;
+	private String bookAuthurId;
 }
